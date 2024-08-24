@@ -1,0 +1,16 @@
+{
+    "mobile":{
+        "name":"samsung",
+        "price" :80000,
+        "rating":5
+    },
+    "TV":{
+        "name":"samsung",
+        "price" :99700,
+        "rating":5
+    },"CHARGER":{
+        "name":"redmi",
+        "price" :500,
+        "rating":4
+    }
+}
