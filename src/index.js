@@ -8,6 +8,7 @@ const PORT = process.env.PORT || 8000;
 dbconnect()
   .then(() => {
     console.log("hello")
+    console.log("hello")
     app.listen(PORT, () => {
       console.log(`Successfully running on ${PORT}`);
     });

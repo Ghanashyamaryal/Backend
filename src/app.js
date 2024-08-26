@@ -8,9 +8,13 @@ app.use(cors({
     origin: process.env.CORS_ORIGIN,
 }))
 
-app.use(express.json({limit: "16kb"}))
+app.use(express.json({ limit: "16kb" }))
 app.use(express.urlencoded())
-    app.use(express.static("public"))
+app.use(express.static("public"))
 app.use(cookieParser())
+
+app.get("/",(req,res)=>{
+    res.send("hello")
+})
 
 export default app;
