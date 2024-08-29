@@ -1,7 +1,7 @@
 
 const asyncHandler = (fn)=> async (req,res,next)=>{
     try {
-        fn(req,res,next)
+        return await  fn(req,res,next)
         
     } catch (error) {
         console.log("error at async handler:")
